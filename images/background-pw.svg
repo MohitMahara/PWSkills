@@ -1,0 +1,32 @@
+<svg id="Component_8_1" data-name="Component 8 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="736.425" height="410.026" viewBox="0 0 736.425 410.026">
+  <defs>
+    <filter id="Ellipse_1" x="452.995" y="20.397" width="266.734" height="266.734" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.5" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.266" y1="0.104" x2="1.169" y2="1.47" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff75a0"/>
+      <stop offset="1" stop-color="#ff75a0" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_38705" data-name="Group 38705" transform="translate(-667.575 -94.315)">
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="150.063" cy="150.063" r="150.063" transform="translate(1103.875 94.315)" fill="#316aff" opacity="0.1"/>
+    <g transform="matrix(1, 0, 0, 1, 667.57, 94.32)" filter="url(#Ellipse_1)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="116.867" cy="116.867" r="116.867" transform="translate(469.5 33.9)" fill="#f5f4ff" opacity="0.85"/>
+    </g>
+  </g>
+  <g id="Group_38688" data-name="Group 38688" transform="translate(-851.11 -145.179)">
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(1432.732 470.729)" fill="none" stroke="#6930c3" stroke-width="8" stroke-dasharray="0 0">
+      <circle cx="16.294" cy="16.294" r="16.294" stroke="none"/>
+      <circle cx="16.294" cy="16.294" r="12.294" fill="none"/>
+    </g>
+    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(900.25 538.911)" fill="none" stroke="#c67ace" stroke-width="4" stroke-dasharray="0 0">
+      <circle cx="8.147" cy="8.147" r="8.147" stroke="none"/>
+      <circle cx="8.147" cy="8.147" r="6.147" fill="none"/>
+    </g>
+    <path id="Polygon_1" data-name="Polygon 1" d="M8.5,2.963a5.925,5.925,0,0,1,10.262,0l7.7,13.331a5.925,5.925,0,0,1-5.131,8.888H5.934A5.925,5.925,0,0,1,.8,16.294Z" transform="matrix(0.966, 0.259, -0.259, 0.966, 857.627, 169.04)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

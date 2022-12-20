@@ -1,0 +1,452 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* nav bar */
+.nav-bar {
+    justify-content: space-between;
+    padding: 10px 120px;
+}
+
+.nav-link {
+    padding-top: 10px;
+    color: black;
+    font-weight: 600;
+}
+
+.brand img {
+    width: 150px;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.nav-list-container {
+    gap: 30px;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.nav-button {
+    padding: 12px 14px;
+    font-size: 14px;
+    margin-top: 0px;
+    color: #fff;
+    background-color: #5a4bda;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* Courses Section */
+
+.primary-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #5a4bda;
+    padding: 15px 40px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.primary-button:hover {
+    color: #fff;
+}
+
+
+.courses {
+    background-color: #f9f8ff;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 100px 150px;
+    position: relative;
+}
+
+.course-background {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.courses-container {
+    gap: 20px;
+    align-items: center;
+    height: 400px;
+}
+
+.course-text {
+    width: 450px;
+}
+
+.course-text p {
+    font-size: 45px;
+    color: #43486f;
+}
+
+.bold-para,
+.bold-text {
+    font-size: 45px;
+    color: #43486f;
+    font-weight: 600;
+}
+
+
+.course-text h1 {
+    font-weight: 400;
+    font-size: 45px;
+    color: #43486f;
+}
+
+.business img {
+    width: 90px;
+}
+
+.course-card-heading img {
+    width: 90px;
+    background-color: #e0ffff;
+}
+
+.first {
+    justify-content: space-between;
+}
+
+.second {
+    gap: 8px;
+}
+
+.course-card-heading h4 {
+    font-size: 20px;
+}
+
+.first-course-card {
+    width: 300px;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    height: 350px;
+    padding: 20px 10px;
+    background-color: #fff;
+    flex-direction: column;
+    gap: 30px;
+    z-index: 1;
+}
+
+.first-course-card:hover {
+    border: 1px solid #5a4bda;
+}
+
+.second-course-card:hover {
+    border: 1px solid #5a4bda;
+}
+
+.second-course-card {
+    padding: 20px 10px;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    height: 350px;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.para {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.course-heading-container {
+    gap: 20px;
+}
+
+.course-text-img img {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.course-card-dis h4 {
+    font-size: 16px;
+}
+
+.course-card-dis {
+    flex-direction: column;
+    gap: 5px;
+}
+
+.starts {
+    margin-top: 10px;
+}
+
+/* utility classes */
+
+.flex {
+    display: flex;
+}
+
+p {
+    margin: 0px;
+    font-size: 14px;
+}
+
+
+.one {
+    background-color: #e5e2ff;
+    color: #36309d;
+    border-radius: 6px;
+    font-size: 11px;
+    margin-top: 2px;
+}
+
+.two {
+    background-color: #e0ffff;
+    color: #2c9498;
+    border-radius: 6px;
+    font-size: 11px;
+    margin-top: 2px;
+
+}
+
+.three {
+    background-color: #fff8e0;
+    color: #d59b00;
+    border-radius: 6px;
+    font-size: 11px;
+    margin-top: 2px;
+
+}
+
+.self {
+    color: #43486f;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+/* comany section */
+
+.company-section h2 {
+    font-size: 40px;
+    color: #3b3f5d;
+    font-weight: 700;
+}
+
+.company-section {
+    align-items: center;
+    text-align: center;
+    height: 10rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.company-image {
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.company-container {
+    margin-top: 50px;
+}
+
+/* Big courses section */
+.Big-courses {
+    padding: 20px 200px;
+    padding-bottom: 50px;
+}
+
+.big-course-container {
+    justify-content: space-between;
+
+}
+
+.big-course-heading,
+.know-us-heading {
+    color: #3b3f5d;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 43px;
+}
+
+/* Know us section */
+.first-row {
+    gap: 50px;
+    padding-top: 30px;
+}
+
+.coaches {
+    text-align: center;
+    padding: 50px 150px;
+    padding-bottom: 100px;
+
+}
+
+.coaches-heading {
+    font-size: 43px;
+    color: #3b3f5d;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.discription p {
+    font-weight: 600;
+    color:#43486f;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.discription h6 {
+    margin: 0px;
+    font-size: 17px;
+}
+
+.urvi,
+.vishwa,
+.Manvi {
+    gap: 30px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 22px 0px;
+    border-radius: 8px;
+    padding-right: 20px;
+    width: 500px;
+}
+
+.urvi-img,
+.vishwa-img,
+.Manvi-img{
+    width: 100px;
+}
+
+.discription {
+    padding-top: 50px;
+    text-align: start;
+}
+
+.discription img{
+    max-width: 90px;
+}
+
+.row-container{
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Doubts section */
+
+.doubts{
+text-align: center;
+padding: 50px 150px;
+}
+
+.doubts-heading{
+    color: #3b3f5d;
+    font-size: 43px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.gif{
+    width: 340px;
+}
+
+.doubts-container{
+gap: 200px;
+}
+.doubts-left p{
+    font-size: 20px;
+    text-align: start;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+
+/* footer section */
+
+footer{
+    background-color: #120b1a;
+    padding: 50px 100px;
+}
+
+.pwskills{
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+.first-div p{
+    line-height: 2;
+color: #fff;
+font-size: 16px;
+font-weight: 600;
+}
+
+.second-div h4{
+color: #eb427e;
+letter-spacing: 2px;
+font-size: 25px;
+width: 250px;
+padding-bottom: 10px;
+}
+.second-div p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    line-height: 2;
+}
+
+.second-div{
+    padding-left: 300px;
+    padding-right: 50px;
+}
+
+.social-media{
+    gap: 10px;
+    color: #fff;
+    padding-top: 80px;
+}
+
+.contact{
+    color: #fff;
+    padding-top: 30px;
+}
+
+
+.footer-hr{
+color: #fff;
+}
+.footer-body p{
+color: #fff;
+line-height: 2;
+font-size: 16px;
+font-weight: 600;
+}
+.footer-body h4{
+color: #eb427e;
+letter-spacing: 2px;
+font-size: 20px;
+padding-bottom: 10px;
+}
+
+.footer-body div{
+    padding-bottom: 10px;
+}
+
+.footer-para{
+    padding-bottom: 10px;
+}
+
+.terms{
+    justify-content: space-between;
+}
+.terms-div{
+    gap: 20px;
+}
+
+.terms-div p{
+cursor: pointer;
+}
